@@ -1,0 +1,112 @@
+.membros img{
+    width: 10pc;
+}
+.container_sobre{
+  display: flex;
+  gap: 1pc;
+  margin: 2pc;
+ 
+}
+
+.sobre{
+
+}
+.projeto{
+  background-color: orange;
+  text-align: center;
+}
+#title_sobre{
+  font-size: 4pc;
+  font-weight: 600;
+}
+#txt{
+  max-width: 60pc;
+text-align: justify;
+font-size: 1.6pc;
+}
+.centro{
+  display: flex;
+  justify-content: space-around;  
+}
+.card{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ background-color: aliceblue;
+ border-radius: 1pc;
+ margin: 1pc;
+
+}
+.card h2{
+  max-width: 37pc;
+  text-align: justify;
+  margin: 2pc;
+}
+.card img{
+width: 10pc;
+height: 13pc;
+height: auto;
+}
+.card h1{
+  color: orange;
+  font-size: 2pc;
+  font-weight: 700;
+}
+.pjt{
+  background-color: orange;
+}
+.membros{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1pc;
+  margin: 1pc;
+  width: 25pc 
+}
+.membros img{
+  width: 10pc;
+  border-radius: 1pc;
+  margin-top: 5px;
+}
+.membros h2{
+  font-size: 1pc;
+ 
+}
+.todos{
+  background-color: orange;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+}
+.filho42{
+  display: flex;
+  justify-content: center;
+  
+}
+@media screen and (max-width: 768px) {
+  .container_sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 1pc;
+    margin: 2pc;
+   
+  }
+  .filho42 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#txt {
+  max-width: 60pc;
+  text-align: justify;
+  font-size: 1pc;
+  margin: 1pc;
+}
+}

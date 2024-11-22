@@ -1,0 +1,13 @@
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 11rem;
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid var(--hallowen);
+    color: var(--hallowen);
+    margin-top: auto; 
+  }
+  

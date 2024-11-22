@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple');
+
+ .container_home{
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  gap: 5pc;
+  height: 35pc;
+ }
+#desktop{
+  font-family: 'Rancho', cursive;
+  font-size: 4pc;
+  color: black;
+  text-shadow: 6px 5px 4px white;
+  font-weight: 900;
+  position: relative;
+  top: 6pc;
+  max-width: 30pc;
+}
+
+#mais{
+  background-color: white;
+  color: orange;
+}
+#mobile{
+  font-size: 0;
+}
+#imgmobile{
+  width: 0;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+    #imgmobile{
+     width: 30pc;
+ }
+    #mobile{
+      font-family: 'Rancho', cursive;
+      font-size: 3pc;
+      color: black;
+      text-shadow: 6px 5px 4px white;
+      font-weight: 900;
+      position: relative;
+      top: 0;
+      max-width: 15pc;
+      text-align: center;
+  
+    }
+    #desktop{
+      font-family: 'Rancho', cursive;
+      font-size: 0pc;
+      color: black;
+      text-shadow: 6px 5px 4px white;
+      font-weight: 900;
+      position: relative;
+      top: 0;
+      max-width: 10pc;
+      text-align: center;
+    
+    }
+    .container_home{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+     }
+     #mais{
+      background-color: orange;
+      color: white;
+    }
+
+}
